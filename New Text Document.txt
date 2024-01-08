@@ -1,0 +1,14 @@
+cd "C:\Program Files\Acronis\RegisterAgentTool"
+
+register_agent.exe -o register -a 172.16.154.87 --token 7EFE-AF39-46E4
+
+
+for MAC
+
+/Library/Application Support/BackupClient/Acronis/RegisterAgentTool/RegisterAgent -o register -a (AMS IP) --token 9B93-A654-4450
+
+
+/Library/Application Support/BackupClient/Acronis/RegisterAgentTool/RegisterAgent -o register -a <management server address> -u <username> -p <password>
+
+
+5C87-9D44-46FF
